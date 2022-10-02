@@ -9,7 +9,13 @@ public class DataTypes {
 		int qty =1;
 		float total_price=price*qty;
 		System.out.println("total price :"+total_price);
-		
+	}
+	
+	public void bookpurchase() {
+		double prc=125.5;
+		int qty =2;
+		double totalprice=prc*qty;
+		System.out.println("total price :"+totalprice);
 	}
 	
 	public static void main(String[] args) {

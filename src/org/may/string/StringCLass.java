@@ -10,6 +10,7 @@ public class StringCLass {
 		
 		int lastIndexOf = s.lastIndexOf('h');
 		System.out.println(lastIndexOf);
+	}
 		
 		
 		
@@ -29,6 +30,13 @@ public class StringCLass {
 //			}
 //		}
 
+		public void gittask() {
+			String s="idris mohammed";
+			for (int i = 0; i < s.length(); i++) {
+				if(i%2==0) {
+				System.out.println(s.charAt(i));
+				}
+		}
 	}
 	
 	public static void main(String[] args) {
